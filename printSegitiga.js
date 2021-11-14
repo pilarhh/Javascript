@@ -1,6 +1,6 @@
 function printSegitiga(x) {
 
-    if (typeof x === 'number'|| x instanceof Number) {
+    if (typeof x === 'number') {
         var output = '';
         for (var i = 0; i < x; i++) {
             for (var j = 1; j <= x - i; j++) {
