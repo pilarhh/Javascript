@@ -19,9 +19,12 @@ function grade(average) {
     }
 }
 
-
 console.log("Rata-rata = "+ average + "\n"
 + grade(average));
+
+// template literals
+// console.log(`Rata-rata = ${average}
+// ${grade(average)}`)
 
 
 // use function
