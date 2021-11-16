@@ -18,9 +18,7 @@ let data = {
 let newData = {...data, name : "pilar", email : "pilarhengkiriang11@gmail.com", hobby : "listening to music"};
 
 // destructuring
-let street, city;
-const address = {street: "Kulas Light", city: "Gwenborough"};
+const {address} = data;
+const {street, city} = address;
 
-({street, city} = address);
-
-console.log(newData);
+console.log(street);
